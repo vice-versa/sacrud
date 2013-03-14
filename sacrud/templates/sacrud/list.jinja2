@@ -1,9 +1,12 @@
 {% extends "sacrud/base.jinja2" %}
-
+{% block extrascss %}
+<link rel="stylesheet" href="/sa_static/style/jquery.jgrowl.css"/>
+{% endblock %}
 {% block extrascript %}
   <script src="/sa_static/js/jquery/jquery-1.9.1.min.js"></script>
   <script src="/sa_static/js/script.js"></script>
   <script src="/sa_static/js/URI.js"></script>
+  <script src="/sa_static/js/jquery/jquery.jgrowl.js"></script>
 {% endblock %}
 
 {% block sa_body %}
